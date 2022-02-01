@@ -1,1 +1,1 @@
-web: cryptoapp.wsgi
+web: gunicorn cryptoapp.wsgi
